@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="icon" type="image/icon-logo" href="./images/logo-navegador.png">
+    <!-- Ícone da página exibido na aba do navegador -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Pré-conexão com o Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Serif:opsz@8..144&display=swap" rel="stylesheet">
+    <!-- Importação das fontes Bebas Neue e Roboto Serif do Google Fonts -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Importação do arquivo CSS principal -->
+</head>
+<body>
+    <div class="container">
+        <!-- Container principal -->
+        <div class="style-header">
+            <!-- Div com estilo para o cabeçalho -->
+            <header>
+                <!-- Cabeçalho -->
+                <h1>Registration Form</h1>
+                <!-- Título do formulário de registro -->
+            </header>
+        </div>
+    </div>
+    <section>
+        <!-- Seção do formulário de registro -->
+        <form id="myForm">
+            <!-- Formulário com identificador "myForm" -->
+            <div class="form-campo">
+                <!-- Div para o campo de input do nome -->
+                <input placeholder="insira seu nome completo" type="text" id="nome" name="nome">
+                <!-- Input para inserção do nome completo -->
+            </div>
+            <div class="style-error">
+                <!-- Div com estilo para exibir mensagens de erro relacionadas ao campo de nome -->
+                <label class="error" for="nome" id="color-nome"></label>
+                <!-- Label para exibir mensagens de erro -->
+            </div>
+            <div class="form-campo">
+                <!-- Div para o campo de input do telefone -->
+                <input placeholder="insira seu telefone" type="tel" id="telefone" name="telefone">
+                <!-- Input para inserção do telefone -->
+            </div>
+            <div class="style-error">
+                <!-- Div com estilo para exibir mensagens de erro relacionadas ao campo de telefone -->
+                <label class="error" for="telefone" id="color-telefone"></label>
+                <!-- Label para exibir mensagens de erro -->
+            </div>
+            <div class="form-campo">
+                <!-- Div para o campo de input do e-mail -->
+                <input placeholder="insira seu e-mail" type="email" id="email" name="email">
+                <!-- Input para inserção do e-mail -->
+            </div>
+            <div class="style-error">
+                <!-- Div com estilo para exibir mensagens de erro relacionadas ao campo de e-mail -->
+                <label class="error" for="email" id="color-email"></label>
+                <!-- Label para exibir mensagens de erro -->
+            </div>
+            <div class="form-campo">
+                <!-- Div para o campo de input do CPF -->
+                <input placeholder="insira seu cpf" type="text" id="cpf" name="cpf">
+                <!-- Input para inserção do CPF -->
+            </div>
+            <div class="style-error">
+                <!-- Div com estilo para exibir mensagens de erro relacionadas ao campo de CPF -->
+                <label class="error" for="cpf" id="color-cpf"></label>
+                <!-- Label para exibir mensagens de erro -->
+            </div>
+            <div class="form-campo">
+                <!-- Div para o campo de input do CEP -->
+                <input placeholder="insira seu cep" type="text" id="cep" name="cep">
+                <!-- Input para inserção do CEP -->
+            </div>
+            <div class="style-error">
+                <!-- Div com estilo para exibir mensagens de erro relacionadas ao campo de CEP -->
+                <label class="error" for="cep" id="color-cep"></label>
+                <!-- Label para exibir mensagens de erro -->
+            </div>
+            <div class="button-form">
+                <!-- Div para o botão de envio do formulário -->
+                <button type="submit" id="botaoEnviar">Enviar</button>
+                <!-- Botão de envio do formulário -->
+            </div>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <!-- Rodapé da página -->
+        <p>
+            2024 &copy; Desenvolvido por Luan Rodrigues - Todos os direitos reservados
+        </p>
+        <!-- Informação de copyright e créditos -->
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Importação do jQuery -->
+    <script src="./plugin-js/jquery.mask.min.js"></script>
+    <!-- Importação do plugin jQuery Mask -->
+    <script src="./plugin-js/jquery.validate.min.js"></script>
+    <!-- Importação do plugin jQuery Validate -->
+    <script src="./plugin-js/messages_pt_BR.min.js"></script>
+    <!-- Importação do arquivo de mensagens em português para o jQuery Validate -->
+    <script src="./plugin-js/mask.js"></script>
+    <!-- Importação de um script personalizado (mask.js) -->
+
+</body>
+</html>

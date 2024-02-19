@@ -1,0 +1,140 @@
+/* Definições para todos os elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "bebas Neue", sans-serif;
+}
+/* Configurações globais para o documento HTML, como remoção de margens e preenchimentos padrão, e caixa de modelo de borda */
+
+/* Estilo para o corpo do documento */
+body{
+    background-image: url(./images/imagem-de-fundo.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+/* Estilo para o corpo do documento, definindo uma imagem de fundo que cobre toda a tela, fixada, com altura mínima de 100% da altura da janela de visualização (viewport) */
+
+/* Estilo para o container principal */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilo para o container principal que centraliza seu conteúdo horizontalmente e verticalmente */
+
+/* Estilo para o cabeçalho */
+.container h1{
+    width: 680px;
+    margin-top: 164px;
+    margin-bottom: 28px;
+    padding: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(81, 19, 102, 0.862);
+    border-radius: 12px;
+}
+/* Estilo para o título dentro do container, definindo largura, margens, preenchimento, transformação de texto para maiúsculas, alinhamento de texto, espaçamento entre letras, peso da fonte, cor do texto, cor de fundo e raio da borda */
+
+/* Estilo para os campos do formulário */
+.form-campo {
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+/* Estilo para os campos do formulário que centraliza os campos horizontalmente e define margens */
+
+/* Estilo para os campos de entrada do formulário */
+.form-campo input{
+    width: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(237, 237, 237, 0.862);
+    padding: 8px;
+    border-radius: 14px;
+    border: none;
+}
+/* Estilo para os campos de entrada do formulário que definem largura, alinhamento, cor de fundo, preenchimento, raio da borda e remoção do estilo padrão do campo de entrada */
+
+/* Estilo para o placeholder (texto de orientação) nos campos de entrada do formulário */
+.form-campo input::placeholder{
+    text-align: center;
+    color: black;
+}
+/* Estilo para o texto de orientação dentro dos campos de entrada do formulário, centralizando o texto e definindo a cor */
+
+/* Estilo para o botão de envio do formulário */
+.button-form{
+    display: flex;
+    justify-content: center;
+}
+/* Estilo para o container do botão de envio que centraliza o botão horizontalmente */
+
+/* Estilo de foco (hover) para o botão de envio do formulário */
+.button-form button:hover {
+    background-color: green; 
+}
+/* Estilo aplicado quando o cursor do mouse está sobre o botão de envio, alterando a cor de fundo */
+
+/* Estilo para o botão de envio do formulário */
+.button-form button{
+    width: 140px;
+    padding: 12px;
+    margin-top: 26px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #120f0f;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: rgba(237, 237, 237, 0.862);
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+/* Estilo para o botão de envio do formulário que define largura, preenchimento, margem superior, tamanho e peso da fonte, cor do texto, transformação de texto para maiúsculas, espaçamento entre letras, cor de fundo, raio da borda e cursor */
+
+/* Estilo para mensagens de erro */
+#color-cep,
+#color-cpf,
+#color-email,
+#color-telefone,
+#color-nome {
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+}
+/* Estilo para as mensagens de erro, definindo a cor do texto, tamanho da fonte e estilo itálico */
+
+/* Estilo para o container das mensagens de erro */
+.style-error {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/* Estilo para o container das mensagens de erro que centraliza o texto horizontalmente */
+
+/* Estilo para o rodapé da página */
+#footer {
+    position: fixed;
+    background-color: rgba(237, 237, 237, 0.862);
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* altura do rodapé */
+}
+/* Estilo para o rodapé da página que fixa o rodapé na parte inferior da tela, define a cor de fundo, largura total e altura */
+
+/* Estilo para o texto dentro do rodapé */
+#footer p{
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+/* Estilo para o texto dentro do rodapé que centraliza o texto horizontalmente e define a cor do texto */
